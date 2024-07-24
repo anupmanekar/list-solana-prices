@@ -1,0 +1,34 @@
+{
+  "name": "list-solana-assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@project-serum/serum": "^0.13.65",
+    "@pythnetwork/client": "^2.21.1",
+    "@pythnetwork/price-service-client": "^1.8.2",
+    "@pythnetwork/pyth-solana-receiver": "^0.7.0",
+    "@solana/web3.js": "^1.95.1",
+    "axios": "^1.7.2",
+    "esrun": "^3.2.26",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "@types/react": "^18.3.3",
+    "react-scripts": "^3.0.1"
+  }
+}
